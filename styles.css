@@ -1,0 +1,96 @@
+/*-------------first page-------------*/
+/*colors:rgb(251,196,1)*/
+html{
+    margin: 0%;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(243,96,16);
+
+}
+.col-3{
+    font-size: 100px;
+}
+
+
+
+.row{
+    align-items: center;
+}
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+}
+#j{
+   align-items: center;
+}
+
+.objective-wrap{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    
+}
+.objective{
+  text-align: end;
+  margin-right: 1px;
+}
+.space{
+    width: 100%;
+    height: 10vh;
+    
+}
+
+/*----------------------navbar----------------------------*/
+.navbar-brand {
+    color: rgb(204,195,181);
+    font-size: smaller;
+    padding-left: 2ch;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .nav-link{
+    color: rgb(204,195,181);
+  }
+
+  @media (max-width: 900px) {
+    .nav-item{
+      margin-left:55%;
+      margin-right: 10px;
+     }
+  }
+  .nav-item{
+    font-family: 'Space Grotesk', sans-serif;
+ 
+  
+   
+  }
+ @media (max-width: 900px){
+  .nav-item{
+    text-align: end;
+    font-size: 200%;
+  }
+ }
+ 
+ .navbar-toggler{
+  border: 0 !important;
+  }
+
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+  /*--------------------second page-------------------*/ 
+
+.secondcontainer{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(177,154,193);
+}
+.secondcontainer{
+    padding: 50px 4px 50px 4px;
+}
+ 
