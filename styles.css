@@ -127,3 +127,23 @@ padding: 20px;
 .second-wrap , .objective , .footer{
   font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
 }
+/*--------------------footer-----------------------*/
+.mail{
+  display: contents;
+  justify-content: space-between;
+}
+
+.footer{
+  
+  margin: 0px;
+  background-color:rgb(177,154,193) ;
+}
+
+.footer-container{
+  padding: 10px;
+}
+
+.break{
+  background-color: rgb(177,154,193);
+}
+
