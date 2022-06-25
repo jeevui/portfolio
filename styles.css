@@ -124,4 +124,6 @@ padding: 20px;
   float: right;
 }
 
-
+.second-wrap , .objective , .footer{
+  font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
+}
