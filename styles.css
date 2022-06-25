@@ -13,7 +13,11 @@ html{
 }
 .col-3{
     font-size: 100px;
+    
+
+ 
 }
+
 
 
 
@@ -41,6 +45,11 @@ html{
     width: 100%;
     height: 10vh;
     
+}
+
+li , ul {
+  list-style: none;
+  
 }
 
 /*----------------------navbar----------------------------*/
@@ -78,19 +87,41 @@ html{
   }
 
   .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-      outline: none;
-      box-shadow: none;
-  }
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
   /*--------------------second page-------------------*/ 
 
-.secondcontainer{
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(177,154,193);
+.second-container{
+padding: 20px;
 }
-.secondcontainer{
-    padding: 50px 4px 50px 4px;
+
+.second-wrap{
+  margin: 0px;
+  background-color: rgb(177,154,193);
 }
- 
+
+.section-title{
+  display: inline-block;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 25px;
+  color: black;
+  margin-top: 10 10 ;
+  border-bottom: 2px solid black;
+}
+
+.section{
+  margin-top: 20px;
+}
+
+
+
+.section-span{
+  float: right;
+}
+
+
