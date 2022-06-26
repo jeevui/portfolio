@@ -4,13 +4,21 @@ html{
     margin: 0%;
     scroll-behavior: smooth;
 }
+body{
+  overflow-x: hidden;
+}
 
 .wrapper{
-    height: 100vh;
     width: 100vw;
-    background-color:rgb(243,96,16);
+    height: 100vh;
+    background-color:rgb(243,96,16)
+    /*color---rgb(243,96,16);*/
 
 }
+
+
+
+
 .col-3{
     font-size: 100px;
     
@@ -91,7 +99,6 @@ li , ul {
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
-    border: none;
 }
   /*--------------------second page-------------------*/ 
 
@@ -124,9 +131,6 @@ padding: 20px;
   float: right;
 }
 
-.second-wrap , .objective , .footer{
-  font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
-}
 /*--------------------footer-----------------------*/
 .mail{
   display: contents;
@@ -143,5 +147,75 @@ padding: 20px;
   padding: 10px;
 }
 
+/*---------------fonts----------------*/
+.second-wrap , .objective , .footer{
+  font-family: 'Aktiv Grotesk Cd Trial', sans-serif;
+}
 
+.first-name{
+  font-family: 'Berthold Akzidenz Grotesk BE', sans-serif;
+                                                
+                                                
+                                                
+                                                
+}
+/*--------------------------------alternative first page-----------------------------*/ 
+.first-wrapper{
+height: 100vh;
+width: 100vw;
+background-color:rgb(243,96,16) ;
+}
 
+@media only screen and ( max-width:768px)
+{
+
+  .first-blank{
+    height: 26vh;
+  }
+  
+  .first-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: end;
+    margin-bottom: 3px;
+    margin-right: 0.8ex;
+  }
+  
+  .first-name{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 20vh;
+    padding-left: 1px;
+    letter-spacing: 1px;
+    
+  }
+  .initial{
+    display: list-item;
+    
+
+  }
+  
+}
+
+@media only screen and (min-width:800px)
+{
+  .first-name{
+  font-size: 100px;
+  color: black;
+  letter-spacing: 20px;
+  }
+  
+  .first-blank{
+    height: 50%;
+  }
+  
+  .first-grid{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: end;
+    font-size: 20px;
+    padding-right: 15px;
+  }
+  
+  
+}
