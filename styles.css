@@ -62,13 +62,13 @@ li , ul {
 
 /*----------------------navbar----------------------------*/
 .navbar-brand {
-    color: rgb(204,195,181);
+    color: black;
     font-size: smaller;
     padding-left: 2ch;
     font-family: 'Space Grotesk', sans-serif;
   }
   .nav-link{
-    color: rgb(204,195,181);
+    color: black;
   }
 
   @media (max-width: 900px) {
@@ -89,17 +89,19 @@ li , ul {
     font-size: 200%;
   }
  }
- 
+ button:focus { outline: none !important; box-shadow: none !important; }
+
+
  .navbar-toggler{
   border: 0 !important;
+  box-shadow: none;
   }
 
-  .navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-}
+  .nav-link:hover{
+    color: white;
+  }
+
+
   /*--------------------second page-------------------*/ 
 
 .second-container{
@@ -118,7 +120,9 @@ padding: 20px;
   font-size: 25px;
   color: black;
   margin-top: 10 10 ;
-  border-bottom: 2px solid black;
+  padding-bottom: 3px;
+  border-bottom: 2px  solid black ;
+  
 }
 
 .section{
@@ -159,11 +163,19 @@ padding: 20px;
                                                 
                                                 
 }
+
+
 /*--------------------------------alternative first page-----------------------------*/ 
 .first-wrapper{
 height: 100vh;
 width: 100vw;
 background-color:rgb(243,96,16) ;
+}
+
+.first-desc{
+  line-height: 1;
+  font-weight: 500;
+ 
 }
 
 @media only screen and ( max-width:768px)
@@ -216,6 +228,78 @@ background-color:rgb(243,96,16) ;
     font-size: 20px;
     padding-right: 15px;
   }
-  
-  
 }
+
+.first-desc:hover{
+  color: white;
+  text-shadow: 0.5rem ;
+}
+
+.first-name:hover{
+  color: white;
+}
+/*--------------padding-0----------------*/
+
+@media only screen and (min-width:768px){
+  .bootgrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  #projects{
+    padding-top: 16px;
+  }
+  #org{
+   padding-top:22px;
+  }
+
+}
+
+@media only screen and (max-width:768px){
+  #interships{
+padding-top: 0;
+  }
+
+  .bootgrid{
+    display: list-item;
+  }
+}
+
+
+.second-wrap-2{
+  margin: 0;
+}
+.second-container-2{
+  padding: 20px;
+}
+.bootgrid{
+  background-color: rgb(177,154,193);
+}
+
+/*------------------links---------------------------------------------------------*/
+@media only screen and (min-width:768px){
+  a>div { display: none; }
+a:hover>div { display: block; }
+a{text-decoration: none;}
+
+}
+
+@media only screen and (max-width:768px){
+  a>div{display: none;}
+  a:hover>div{display: none;}
+}
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+a:hover{
+  color: wheat;
+}
+
+a{
+  text-decoration: none;
+}
+
